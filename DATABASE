@@ -1,0 +1,36 @@
+CREATE DATABASE Tindahan
+
+CREATE TABLE Tindahan (
+    item_no INT PRIMARY KEY,
+    item_name VARCHAR(50) NOT NULL,
+    price FLOAT NOT NULL,
+    category VARCHAR(50) NOT NULL,
+    expiration_date DATE NULL
+);
+
+INSERT INTO items (item_no, item_name, price, category, expiration_date) VALUES
+(1, 'Coca-cola', 25.0, 'Beverages', '2024-12-12'),
+(2, 'Instant Noodles', 15.0, 'Snacks', '2025-01-15'),
+(3, 'Shampoo Sachet', 7.0, 'Toiletries', NULL),
+(4, 'Meat Loaf', 45.0, 'Food', '2024-10-20'),
+(5, 'Sardines Can', 18.0, 'Food', '2024-11-05'),
+(6, 'Toothpaste Small', 20.0, 'Toiletries', NULL),
+(7, 'Skyflakes Crackers', 8.0, 'Snacks', '2025-03-10'),
+(8, 'Soy Sauce', 12.0, 'Condiments', '2025-08-01'),
+(9, 'Coffee Sachet', 6.0, 'Beverages', '2025-02-20'),
+(10, 'Powdered Milk', 12.0, 'Food', '2024-09-25'),
+(11, 'Eggs', 6.0, 'Food', NULL),
+(12, 'Biscuit Pack', 10.0, 'Snacks', '2025-04-01'),
+(13, 'Vinegar', 10.0, 'Condiments', '2025-07-20'),
+(14, 'Energy Drink', 35.0, 'Beverages', '2025-01-10'),
+(15, 'Corn Beef', 40.0, 'Food', '2025-05-15'),
+(16, 'Detergent Powder', 10.0, 'Household', NULL),
+(17, 'Dishwashing Liquid', 20.0, 'Household', NULL),
+(18, 'Bar soap', 12.0, 'Toiletries', NULL),
+(19, 'Matchbox', 2.0, 'Household', NULL),
+(20, 'Salt', 10.0, 'Condiments', NULL),
+(21, 'Cooking Oil', 35.0, 'Condiments', '2025-06-01'),
+(22, 'Peanut Butter Small', 35.0, 'Food', '2025-08-20'),
+(23, 'Jelly Juice Drink', 5.0, 'Beverages', '2024-12-30'),
+(24, 'Hotdog Pack', 75.0, 'Frozen', '2024-11-18'),
+(25, 'Cheese', 50.0, 'Food', '2024-10-30');
